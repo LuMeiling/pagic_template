@@ -1,6 +1,6 @@
 import projectConfig from '/pagic.config.js';
 export default {
-    config: { "root": "/", ...projectConfig, branch: '' },
+    config: { "root": "/", ...projectConfig, branch: 'master' },
     'pagePath': "README.md",
     'layoutPath': "_layout.tsx",
     'outputPath': "index.html",
@@ -21,9 +21,11 @@ export default {
             __html: ''
         } }),
     'toc': null,
-    'author': undefined,
-    'contributors': [],
-    'date': "2021-11-28T13:47:21.420Z",
+    'author': "lll",
+    'contributors': [
+        "lll"
+    ],
+    'date': "2021-11-28T14:11:41.000Z",
     'updated': null,
     'excerpt': "",
     'cover': undefined
